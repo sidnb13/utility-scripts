@@ -1,0 +1,2 @@
+0 */1 * * * /Users/sidbaskaran/Desktop/utility-scripts/bash-scripts/fetch-all-repos.sh
+0 */12 * * * /Users/sidbaskaran/Desktop/utility-scripts/bash-scripts/backup-crontabs.sh
