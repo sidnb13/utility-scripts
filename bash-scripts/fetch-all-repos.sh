@@ -5,7 +5,7 @@ git_fetch() {
         cd $1
         {
             {
-                git fetch && git pull
+                git pull --rebase
             } && {
                 echo "$(date +"%H:%M:%S %m/%d/%y") - $(basename $BASH_SOURCE) - $1 fetched" >> /Users/sidbaskaran/Desktop/utility-scripts/MASTER.log
             }
