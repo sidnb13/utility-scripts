@@ -3,6 +3,14 @@
 git_fetch() {
     if test -d "$1/.git"; then
         cd $1
+
+        if [[ -n $(git status -s) ]]
+        then
+            git add .
+            git commit -m "AUTOMATED COMMIT for $1"
+            git push -u origin
+        fi
+
         {
             {
                 git pull --rebase
