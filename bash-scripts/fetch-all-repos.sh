@@ -26,7 +26,7 @@ for sbd in ~/Desktop/coding-projects/*; do
     cd ..
 done
 
-git_fetch "/Users/sidbaskaran/Desktop/uil-java"
+git_fetch "/Users/sidbaskaran/Desktop/uil-compsci/uil-java"
 git_fetch "/Users/sidbaskaran/Desktop/utility-scripts/spotify-ad-killer"
 git_fetch "/Users/sidbaskaran/Desktop/utility-scripts"
 
